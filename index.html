@@ -4,36 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/0d0d992eb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
-<body class="container max-w-[36rem] mx-auto py-14 flex-wrap">
-    <h1 class="text-4xl font-bold">Hi Welcome to my hut</h1>
-    <p class="text-1 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque blanditiis fugit cumque laboriosam consequuntur amet velit sapiente aut eaque, hic maiores magnam temporibus esse similique unde dolorem quas eum.</p>
-    <button class="px-6 py-1 text-white bg-[#111626] rounded-full text-center hover:bg-white hover:text-black border border-black transition duration-500 my-5 text-lg font-bold hover:shadow-lg">contact</button>
+<body class="container1">
+    <h1 class="home_h1">Hi Welcome to my hut</h1>
+    <p class="home_p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque blanditiis fugit cumque laboriosam consequuntur amet velit sapiente aut eaque, hic maiores magnam temporibus esse similique unde dolorem quas eum.</p>
+    <div>
+        <button>contact</button>
+    </div>
 
-    <a href="" class="flex flex-row gap-x-2  items-center">
-        <p class="hover:text-slate-400 transition duration-300">download CV</p>
-        <i class="fa-solid fa-download hover:text-slate-400 transition duration-300"></i>
-    </a>
+    <div href="" class="home_a1">
+        <a class="home_a1p">download CV</a>
+        <i class="fa-solid fa-download home_a1i"></i>
+    </div>
     <!--- Icons --->
-    <div class="flex flex-row gap-x-4 items-center justify-center py-10">
-        <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-linkedin-in"></i></div>
-        <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-instagram "></i></div>
-        <div class="bg-black rounded-full text-white px-3 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-facebook-f"></i></div>
-        <div class="bg-black rounded-full text-white px-2 py-1 cursor-pointer hover:bg-white hover:text-black border border-black transition duration-500 hover:shadow-xl"><i class="fa-brands fa-twitter"></i></div>
+    <div class="icons_container">
+        <div class="rounded_icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="rounded_icon"><i class="fa-brands fa-instagram "></i></div>
+        <div class="rounded_icon1"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="rounded_icon"><i class="fa-brands fa-twitter"></i></div>
 
     </div>
     <!--- Card --->
-    <div class="shadow-xl hover:shadow-2xl transition duration-500 max-w-[20rem] mx-auto text-center overflow-hidden rounded-lg flex-wrap">
-        <div class="w-[20rem] h-[25rem] mx-auto overflow-hidden bg-yellow-500rounded-xl ">
-            <image src="image/cv.jpg" class="object-cover">
+    <div class="card">
+        <div class="wcard_image">
+            <image src="image/cv.jpg" class="card_image-img">
         </div>
-        <div class="py-5">
-            <h1 class="text-4xl font-bold">Setiawan Jodi</h1>
-            <p class="">Fullstack Developer</p>
+        <div class="card_p">
+            <h1>Setiawan Jodi</h1>
+            <p>Fullstack Developer</p>
         </div>
     </div>
 </body>
